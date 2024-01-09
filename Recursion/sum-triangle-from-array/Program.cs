@@ -1,4 +1,4 @@
-namespace DictionaryIssue
+﻿namespace DictionaryIssue
 {
     internal class Program
     {
