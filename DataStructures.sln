@@ -11,6 +11,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sum-triangle-from-array", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tree", "Tree\Tree.csproj", "{2AB05BD6-A3C9-42E3-A0C6-5549750B3FF5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tree-Problems", "Tree-Problems", "{8E404B8F-E04B-457D-8073-DE2295611801}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdenticalTrees", "Tree-Problems\IdenticalTrees\IdenticalTrees.csproj", "{271C6516-7DBB-4DFF-A325-9A70533237B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,12 +33,17 @@ Global
 		{2AB05BD6-A3C9-42E3-A0C6-5549750B3FF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AB05BD6-A3C9-42E3-A0C6-5549750B3FF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AB05BD6-A3C9-42E3-A0C6-5549750B3FF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{271C6516-7DBB-4DFF-A325-9A70533237B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{271C6516-7DBB-4DFF-A325-9A70533237B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{271C6516-7DBB-4DFF-A325-9A70533237B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{271C6516-7DBB-4DFF-A325-9A70533237B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{BDB0287F-7B0A-4B07-9A76-8F9428759BC5} = {8171D28F-D723-4A2C-A1FC-63C94E0DC21C}
+		{271C6516-7DBB-4DFF-A325-9A70533237B8} = {8E404B8F-E04B-457D-8073-DE2295611801}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6BC8EF27-3754-4756-B284-ED6ECE0EED08}

@@ -1,5 +1,5 @@
 ﻿namespace DataStructures.Tree;
-public class Node
+class Node
 {
     public int data;
     public Node? left;
